@@ -1,0 +1,32 @@
+{
+  "name": "aayam-codemedic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.3",
+    "@lezer/highlight": "^1.2.1",
+    "@uiw/codemirror-extensions-langs": "^4.23.10",
+    "@uiw/codemirror-theme-xcode": "^4.23.10",
+    "@uiw/codemirror-themes": "^4.23.10",
+    "@uiw/react-codemirror": "^4.23.10",
+    "axios": "^1.8.1",
+    "install": "^0.13.0",
+    "next": "15.2.1",
+    "openai": "^4.86.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "tailwindcss": "^4"
+  }
+}
